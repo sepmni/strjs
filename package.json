@@ -1,0 +1,41 @@
+{
+  "name": "@isepdev/strjs",
+  "version": "1.0.0",
+  "description": "a set of functions to manipulate strings in JavaScript and TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "homepage": "https://github.com/isepdev/strjs",
+  "readme": "https://github.com/isepdev/strjs#readme",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "strings",
+    "string",
+    "@isepdev/strjs",
+    "str",
+    "javascript",
+    "typescript",
+    "npm"
+  ],
+  "author": {
+    "name": "Sepehr Mohseni",
+    "email": "sepmoh.97@gmail.com",
+    "url": "https://github.com/isepdev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
