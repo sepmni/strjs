@@ -1,6 +1,6 @@
 {
   "name": "@isepdev/strjs",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "a set of functions to manipulate strings in JavaScript and TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
