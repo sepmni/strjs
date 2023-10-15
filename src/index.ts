@@ -38,13 +38,17 @@ export function genRandStr(length: number, special: boolean = true, letter: bool
     return result
 }
 
+export function lowerStr(str: string): string {
+    return str.toLowerCase()
+}
+
 export function genUUID4(): string {
     return [
-        genRandStr(8, false),
-        genRandStr(4, false),
-        genRandStr(4, false),
-        genRandStr(4, false),
-        genRandStr(12, false)
+        lowerStr(genRandStr(8, false)),
+        lowerStr(genRandStr(4, false)),
+        lowerStr(genRandStr(4, false)),
+        lowerStr(genRandStr(4, false)),
+        lowerStr(genRandStr(12, false))
     ].join('-')
 }
 

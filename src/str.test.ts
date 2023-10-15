@@ -39,3 +39,7 @@ test("capitalizes first letter of string", () => {
 test("capitalizes whole string", () => {
     expect(typeof (fn.capStr("Lorem ipsum dolor sit amet"))).toBe("string")
 })
+
+test("lowers string", () => {
+    expect(typeof (fn.lowerStr("Lorem ipsum dolor sit amet"))).toBe("string")
+})
